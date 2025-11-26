@@ -16,7 +16,7 @@ class ProductFactory{
     ): Product{
         $category = new Category($catName,$catDesc);
         echo "<br>Factory: Kreirana kategorija '{$category->name}'";
-        $product = new \Product($name,$price,$category);
+        $product = new Product($name,$price,$category);
         echo "<br> Factory: Kreiran Proizvod '{$product->name}'";
         return $product;
     }

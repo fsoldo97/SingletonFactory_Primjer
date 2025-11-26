@@ -1,0 +1,9 @@
+[
+    {
+        "type": "product",
+        "name": "Lenovo Laptop",
+        "price": "899.99",
+        "category": "Laptopi",
+        "createdAt": "2025-11-26 19:13:00.000000"
+    }
+]

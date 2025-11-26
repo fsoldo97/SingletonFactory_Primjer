@@ -23,7 +23,7 @@ class Product extends BaseEntity{
             "price"=>$this->price,
             "category"=>$this->category->name,
             "createdAt"=>$this->createdAt
-        ]
+        ];
     }
 }
 

@@ -19,7 +19,7 @@ class Category extends BaseEntity{
             "name"=>$this->name,
             "description"=>$this->description,
             "createdAt"=>$this->createdAt
-        ]
+        ];
     }
 }
 
